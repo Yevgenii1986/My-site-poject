@@ -1,0 +1,71 @@
+.foot {
+    width: 97%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    background-color: gray;
+
+    ul {
+        flex: auto;
+        height: 300px;
+        border: solid 1px rgb(144, 143, 143);
+        background-color: rgb(57, 53, 53);
+        color: white;
+        border-radius: 8px;
+        margin: 5px 3px;
+        li:first-child {
+            text-align: center;
+        }
+    }
+    .about_us {
+        hr {
+            width: 150px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        li:nth-child(2) {
+            font-size: 18px;
+            color: coral;
+            text-align: center;
+        }
+    }
+    .Maps {
+        li:last-child {
+            text-align: center;
+            padding: 20px 0;
+            &:hover {
+                transform: scale(1.05);
+            }
+            img {
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+            }
+        }
+    }
+    .Shop {
+        li {
+            text-align: center;
+            &:hover {
+                transform: scale(1.5);
+            }
+            a {
+                font-size: 25px;
+                color: coral;
+            }
+        }
+    }
+    .link {
+        text-align: center;
+        li {
+            &:hover {
+                transform: scale(1.2);
+            }
+            a {
+                font-size: 25px;
+                color: coral;
+            }
+        }
+    }
+}
